@@ -1,0 +1,35 @@
+body{
+  background-color:  #ebf5fb ;
+}
+nav{
+
+   background-color: #1f618d;
+
+}
+
+.navbar-brand{
+  font-family: 'Cinzel', serif;
+   color: #fdfefe ;
+  font-size: 30px;
+}
+.nav-item a
+{
+  color: #fdfefe ;
+  font-size:15px;
+}
+
+li .username
+{
+  color:  #f9e79f;
+  font-size:20px;
+}
+.intro
+{
+  font-family: 'Courgette', cursive;
+  font-size: 18px;
+}
+hr
+{
+  color:white;
+  width:5px;
+}

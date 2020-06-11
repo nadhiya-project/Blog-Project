@@ -1,0 +1,9 @@
+{% extends 'Blog/base.html' %}
+{% block body_block %}
+<form  method="post">
+  {% csrf_token %}
+  <h3>Are you surely want to delete the {{ object }}?</h3>
+  <input type="submit" class="btn btn-primary" value="Confirm">
+  </form>
+  <script>var editor = new MediumEditor('.editable');</script>
+{% endblock %}
